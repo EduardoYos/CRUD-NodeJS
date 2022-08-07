@@ -12,7 +12,7 @@ a{color:#333; text-align: right;}
     border-radius: 16px;
     border-width: 0 0 4px;
     box-sizing: border-box;
-    color: #FFFFFF;
+    color: black;
     cursor: pointer;
     font-family: din-round,sans-serif;
     font-size: 15px;
@@ -33,6 +33,47 @@ a{color:#333; text-align: right;}
     vertical-align: middle;
     white-space: nowrap;
     width: auto; 
+  }
+
+  .submit {
+    appearance: button;
+    background-color: green;
+    border: solid transparent;
+    border-radius: 16px;
+    border-width: 0 0 4px;
+    box-sizing: border-box;
+    color: white;
+    cursor: pointer;
+    font-family: din-round,sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: .8px;
+    line-height: 10px;
+    margin: 10px;
+    outline: none;
+    overflow: visible;
+    padding: 13px 16px;
+    text-align: center;
+    text-transform: uppercase;
+    touch-action: manipulation;
+    transform: translateZ(0);
+    transition: filter .2s;
+    user-select: none;
+    -webkit-user-select: none;
+    vertical-align: middle;
+    white-space: nowrap;
+    width: auto; 
+  }
+
+  .fieldInput
+  {
+    margin: 5px;
+    min-width: 250px;
+    min-height: 50px;
+    border-width: 10px;
+    border-color: #0abab5;
+    border-radius: 10px;
+    padding: 10px 5px;
   }
    
 
