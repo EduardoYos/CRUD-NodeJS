@@ -3,7 +3,42 @@
 h1{color: darkred; width:100%; text-align: center;}
 h2{color: black; width:100%; text-align: center;}
 
-a{color:#333;}
+a{color:#333; text-align: right;}
+
+.button {
+    appearance: button;
+    background-color: #1899D6;
+    border: solid transparent;
+    border-radius: 16px;
+    border-width: 0 0 4px;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-family: din-round,sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    letter-spacing: .8px;
+    line-height: 20px;
+    margin: 10px;
+    outline: none;
+    overflow: visible;
+    padding: 13px 16px;
+    text-align: center;
+    text-transform: uppercase;
+    touch-action: manipulation;
+    transform: translateZ(0);
+    transition: filter .2s;
+    user-select: none;
+    -webkit-user-select: none;
+    vertical-align: middle;
+    white-space: nowrap;
+    width: auto; 
+  }
+    
+/* .space {
+    width: 20px;
+    height: auto;
+} */
 
 table{width: 100%; text-align: center;}
 table td{width: 25%;}
