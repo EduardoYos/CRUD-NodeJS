@@ -7,5 +7,23 @@
   },
   "devDependencies": {
     "nodemon": "^2.0.19"
-  }
+  },
+  "name": "crud-nodejs",
+  "description": "Project to develop a simple CRUD application with node js for learning and registration purposes",
+  "version": "1.0.0",
+  "main": "online_app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node online_app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EduardoYos/CRUD-NodeJS.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EduardoYos/CRUD-NodeJS/issues"
+  },
+  "homepage": "https://github.com/EduardoYos/CRUD-NodeJS#readme"
 }
